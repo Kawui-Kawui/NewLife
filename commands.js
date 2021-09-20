@@ -27,6 +27,7 @@ fs.readdirSync("./commands/").forEach((folder) => {
     }
   }
 });
+
 console.log(table.toString());
 
 const events = fs
