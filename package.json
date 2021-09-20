@@ -22,5 +22,16 @@
     "nodemon": "^2.0.6",
     "stack": "^0.1.0",
     "star-labs": "^1.1.2"
-  }
+  },
+  "devDependencies": {
+    "node": "^16.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kawui-Kawui/NewLife.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kawui-Kawui/NewLife/issues"
+  },
+  "homepage": "https://github.com/Kawui-Kawui/NewLife#readme"
 }
