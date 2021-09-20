@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const client = new Discord.Client({ intents: 4095 });
-const config = require("./config");
+const config = require("./nosubir/config");
 const fs = require("fs");
 const cooldown = new Set();
 const prefix = "n!";
