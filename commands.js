@@ -5,6 +5,8 @@ const fs = require("fs");
 const cooldown = new Set();
 const prefix = "n!";
 
+const mySecret = process.env['token']
+
 const ascii = require("ascii-table");
 const table = new ascii("Commands");
 table.setHeading("Command", "Load Status");
@@ -86,4 +88,4 @@ client.on("messageCreate", async (message) => {
   }, time + "000");
 });
 
-client.login(config.token);
+client.login(mySecret);
