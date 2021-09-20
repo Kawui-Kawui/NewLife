@@ -1,0 +1,23 @@
+{
+  "name": "BOT_DEPIC",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "kawui",
+  "license": "ISC",
+  "dependencies": {
+    "akaneko": "^4.5.1",
+    "ascii-table": "^0.0.9",
+    "discord.js": "^13.1.0",
+    "fs": "^0.0.1-security",
+    "mongoose": "^5.11.7",
+    "ms": "^2.1.2",
+    "nodemon": "^2.0.6",
+    "stack": "^0.1.0",
+    "star-labs": "^1.1.2"
+  }
+}
