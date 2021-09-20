@@ -1,6 +1,5 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-const config = require("./config");
 const fs = require("fs");
 
 for (let file of fs.readdirSync("./events/")) {

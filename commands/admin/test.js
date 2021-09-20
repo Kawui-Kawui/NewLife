@@ -28,16 +28,12 @@ module.exports = {
         .setEmoji(`✅`)
     );
     const embedBienvenidas = new MessageEmbed()
-      .setTitle(`New Life Roleplay`)
-      /* .setThumbnail(
-        `https://cdn.discordapp.com/icons/806572632844533771/cc18d51c17dda8a9bf52e48b9c52a999.png?size=4096`
-      )*/
-      .setDescription(`**PARA VERIFICARTE PULSA EL BOTON**`)
-      .setColor("YELLOW")
-      .setImage(
-        "https://media.discordapp.net/attachments/739190746682490991/739197824524091524/BARRA.gif"
-      );
-    msg.channel.send({ embeds: [embedBienvenidas], components: [row] });
+      .setAuthor(msg.guild.name, msg.guild.iconURL())
+      .setDescription(
+        `<@!332223388833677322> Bienvenid@ a ${msg.guild.name}, esto es un servidor de **RP de Unturned**, Puedes invitar a tu amigos y puedes ganar recompesas, y ve las reglas para no ser sancionado proxomamente, \n ve a <#830536631072850001> para ver mas canales`
+      )
+      .setColor("RED");
+    msg.channel.send({ embeds: [embedBienvenidas] });
   },
 };
 //https://cdn.discordapp.com/icons/806572632844533771/cc18d51c17dda8a9bf52e48b9c52a999.png?size=4096
